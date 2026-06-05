@@ -21,9 +21,28 @@ body {
     position: relative;
 }
 
+.card-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .card-top img {
   width: 100%;
   height: 250px;
+}
+
+.plus {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 15px;
+  left: 350px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: white;
+  align-items: center;
 }
 
 .profile {
