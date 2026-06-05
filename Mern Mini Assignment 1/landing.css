@@ -1,0 +1,114 @@
+* {
+    margin: 50;
+    padding: 20;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(207, 206, 206);
+    padding: 10px;
+}
+
+.container {
+    width: 100%;
+} 
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    gap: 1100px;
+    align-items: center;
+    padding: 15px 0px;
+    background-color: white;
+}
+
+.header p{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.sign-up {
+    background-color: blue;
+    color: white;
+    height: 45px;
+    width: 70px;
+    border-radius: 7px;
+    border-color: transparent;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.banner {
+    background-image: url("https://thumbs.dreamstime.com/b/water-surface-sun-light-reflection-ripples-clear-aqua-sea-blue-ocean-underwater-sparkling-sunlight-shine-swim-pool-163943495.jpg");
+
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 150px;
+} 
+
+.banner p {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    max-width: 700px;
+    /* line-height: 1.2; */
+}
+
+.banner div {
+    display: flex;
+}
+
+#mail {
+    width:450px;
+    height: 55px;
+    padding: 15px;
+    border: none;
+    padding-left: 0 25px;
+    font-size: 16px;
+    border-radius: 7px 0 0 7px;
+}
+
+.banner .sign-up {
+    height: 55px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 25px;
+    border-radius: 0 7px 7px 0;
+    font-size: 20px;
+    
+}
+
+.btn{
+    background-color: #f8f9fa;
+    padding: 80px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 30px;
+}
+
+.btn div{
+    max-width: 300px;
+}
+
+.btn h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: rgb(27, 27, 36);
+}
+
+.btn p{
+    color: #6c757d;
+    line-height: 1.6;
+    font-size: 18px;
+}
